@@ -1,0 +1,210 @@
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  font-family: "Seoe UI", "Semibold";
+}
+
+
+.img {
+  display:block;
+  max-width: 100%;
+}
+.header {
+  background: #c4170c;
+  max-width: auto;
+}
+
+
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.buscar{
+  color: #ffffff;
+  width: 270px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: #8b0000;
+  background-image: url(../img/lupa.svg);
+  padding: 1px;
+  background-size: 29,52px 33px;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 25px;
+  text-align: center;
+  border: black 1px solid; 
+}
+
+main {
+  margin: 0 5%;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  font: normal normal 600 35px/47px Segoe UI;
+}
+
+.melores-noticias {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-left-melhores-noticias {
+  width: 47%;
+  height: 500px;
+  border: 1px solid #707070;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.container-left-melhores-noticias .title {
+  font-weight: normal normal 600 40px/33px ;
+  font-size: 30px;
+  color: #8B0000;
+}
+
+.container-left-melhores-noticias .subtitle {
+  color: #8B0000;
+  font:normal normal normal 25px/33px Segoe UI;
+}
+
+.container-right-melhores-noticias {
+  height: 500px;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.container-top,
+.container-bottom {
+  height: 40%;
+}
+
+.imagem-caminhao {
+  top: 250px;
+  left: 950px;
+  width: 800px;
+  height: 200px;
+  background-position: center;
+  background: transparent url('../_assets/homem-janela-caminhao.png') no-repeat padding-box;
+  border-radius: 4px;
+}
+
+.texto-caminhao {
+  font: normal normal 600 25px/33px Segoe UI;
+}
+
+.imagem-lady-gaga {
+  top: 250px;
+  left: 950px;
+  width: 800px;
+  height: 200px;
+  background-position: center;
+  background: transparent url('../_assets/2020-08-31t015709z-635394129-rc2poi9d1fr1-rtrmadp-3-awards-vma.png') no-repeat padding-box;
+  border-radius: 4px;
+}
+
+
+.texto-lady-gaga{
+  font: normal normal 600 25px/33px Segoe UI;
+}
+
+
+.outras-noticias {
+  margin: 100px 0;
+  width: 100%;
+}
+
+.card-outras-noticias {
+  margin: 30px 0;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outras-noticias-left {
+  width: 46%;
+  background: url('../_assets/notas.png');
+}
+
+.outras-noticias-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0 20px 0;
+}
+
+.categoria {
+  color: black;
+  font-weight: bolder;
+}
+
+.titulo {
+  font-size: 25px;
+  color: #C4170C;
+}
+
+.descricao {
+  font-size: 18px;
+}
+
+.data-publicacao {
+  color: #746565;
+}
+
+.container-button-veja-mais {
+  width: 100%;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-button-veja-mais button {
+  background-color: #C4170C;
+  border: 1px solid #707070;
+  font: normal normal 600 25px/33px Segoe UI;
+  width: 20%;
+  height: 75px;
+  color: white;
+}
+
+footer {
+  height: 15%;
+  padding: 10px 5%;
+  box-sizing: border-box;
+  background-color: rgba(196, 23, 12, 1);
+  font: normal normal normal 25px/33px Segoe UI;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-footer-top {
+  color: white;
+}
+
+.div-footer-bottom {
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
