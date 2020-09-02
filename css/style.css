@@ -32,16 +32,21 @@ Body {
   height: 46px;
   border-radius: 8px;
   background-color: #8b0000;
-  background-image: url(../img/lupa.svg);
-  padding: 1px;
+  margin: 12px;
   background-size: 29,52px 33px;
-  background-repeat: no-repeat;
   background-position: left;
   font-size: 25px;
   text-align: center;
-  border: black 1px solid; 
+  border: #707070 1px solid; 
 }
 
+.buscar::placeholder{
+  background-image: url(../img/lupa.svg);
+  background-repeat: no-repeat;
+  padding: 5px 15px;
+  color: white;
+  
+}
 main {
   margin: 0 5%;
 }
@@ -101,7 +106,7 @@ h2 {
   top: 250px;
   left: 950px;
   width: 800px;
-  height: 200px;
+  height: 178px;
   background-position: center;
   background: transparent url('../_assets/homem-janela-caminhao.png') no-repeat padding-box;
   border-radius: 4px;
@@ -115,7 +120,7 @@ h2 {
   top: 250px;
   left: 950px;
   width: 800px;
-  height: 200px;
+  height: 178px;
   background-position: center;
   background: transparent url('../_assets/2020-08-31t015709z-635394129-rc2poi9d1fr1-rtrmadp-3-awards-vma.png') no-repeat padding-box;
   border-radius: 4px;
@@ -200,6 +205,8 @@ footer {
 
 .div-footer-top {
   color: white;
+  display: flex;
+  align-items: center; 
 }
 
 .div-footer-bottom {
