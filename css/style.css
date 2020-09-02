@@ -160,19 +160,24 @@ h2 {
 .categoria {
   color: black;
   font-weight: bolder;
+  font: normal normal 600 20px/30px Segoe UI;
 }
 
 .titulo {
   font-size: 25px;
   color: #C4170C;
+  font: normal normal 600 28px/40px Segoe UI;
 }
 
 .descricao {
   font-size: 18px;
+  font: normal normal 600 23px/33px Segoe UI;;
 }
 
 .data-publicacao {
   color: #746565;
+  font: normal normal 600 20px/30px Segoe UI;
+  
 }
 
 .container-button-veja-mais {
